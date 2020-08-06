@@ -19,60 +19,43 @@
     --color-box-footer: #FAFAFC;
     --color-small-info: #C1BCCC;
     font-size: 60%; /* controle das medidas rem */
-
-}
-html,
-body{
-
-height: 100vh;
-
-}
-
-
-body{
-    background-color:var(--color-background);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+  }
+  
+  html,
+  body {
+    height: 100vh;
+  }
+  
+  body {
+    background: var(--color-background);
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-*{
-
-margin:0;
-padding: 0;
-box-sizing: border-box;
-
-
-
-}
-
-
-body,
-input,
-button,
-textarea{
-/*font: 500 1.6rem Poppins*/
-color:var(--color-text-base);
-font-weight: 500;
-font-family: Poppins;
-font-size: 1.6rem;
-
-
-}
-#container{
+  }
+  
+  body,
+  input,
+  button,
+  textarea {
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
+  }
+  
+  #container {
     width: 90vw;
     max-width: 700px;
-   
- 
- }
- @media (min-width:700px){
-     :root{
-
-font-size: 62.5%; /*todo 1rem vai ser relativo a 10px*/
-
-
-     }
-
-
-
- }
+  }
+  
+  @media (min-width: 700px) {
+    :root {
+      font-size: 62.5%;
+    }
+  }
